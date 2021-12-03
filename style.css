@@ -1,0 +1,40 @@
+body {
+  background-color: cyan;
+  color: #002334;
+  opacity: 0.9;
+  font-family: "Roboto", sans-serif;
+}
+
+.js .anime {
+  opacity: 0;
+  transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 0.3s all ease;
+}
+
+strong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border-radius: 5px;
+  padding: 50vh 0;
+}
+
+.box,
+p {
+  font-size: 5rem;
+  padding-top: 100px;
+}
+
+section {
+  padding: 20px 0;
+  text-align: center;
+}
